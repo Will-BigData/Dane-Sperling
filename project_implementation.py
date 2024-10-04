@@ -1,30 +1,23 @@
 import project_header as head
-import csv
-with open("C:/Users/danes/OneDrive/Documents/Python/Project_1/Story.md") as file:
+
+class Choices():
+    def checkChoice(self, str):
+        print("works")
+        if str == "Hi":
+            print("Howdy")
+        
     
-    print(file.readline())
-    string = file.__next__().strip()
-    print(string)
-    print(string == "Stop")
-    if string == "Stop":
-        print("Works")
-    else:
-        print(file.readline())
-
-    """ for line in file:
-        # Strip whitespace and check if the line is "Stop"
-        if line.strip() == "Stop":
-            break  # Stop reading if "Stop" is encountered
-        print(line.strip())  # Process the line (e.g., print it) """
-
-file.close()
-class choices(head.choices):
-    def checkChoice(str):
-        pass
-    
-    def addChoice(str):
+    def addChoice(self, str):
         pass
 
-    def openFile():
-        pass
+    def openFile(self):
+        
+        file = open("C:/Users/danes/OneDrive/Documents/Python/Project_1/Story.md")
+        print(file.read())
+        """ with open("C:/Users/danes/OneDrive/Documents/Python/Project_1/Story.md") as file:
+            
+            string = file.__next__().strip()
+            while string != "Stop":
+                print(file.readline())
+            file.close() """
 
