@@ -1,16 +1,20 @@
 import project_implementation as imp
 
 class Choices():
-    
-    
-    def checkChoice(str):
-        print("stuck")
+    __ch = ''
+    __l = []
+
+    def checkChoice():
         pass
     
+    def useChoice(file, i):
+        pass
     
     def addChoice(str):
         pass
 
+    def readPrompt(file):
+        pass
 
     def openFile():
         pass
