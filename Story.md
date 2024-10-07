@@ -8,8 +8,16 @@ What do you do?
 stop
 1
 Kitchen
+stop
+21
 2
 Living Room
+stop 
+22
 3
 Bedroom
 stop
+23
+test
+test2
+test3

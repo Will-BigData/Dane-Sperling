@@ -14,11 +14,16 @@ class Choices():
         while line.strip() != "stop":
             if i == line.strip() :
                 line = file.readline()
-                print(line)
-                line = file.readline()
+                while line.strip() != "stop":
+                    print(line)
+                    line = file.readline()
             else:
                 line = file.readline()
+                while line.strip() != "stop":
+                    line = file.readline()
                 line = file.readline()
+                line = file.readline()
+            
             
 
     def addChoice(self, str):
@@ -31,6 +36,18 @@ class Choices():
         while line.strip() != "stop":
             print(line)
             line = file.readline()
+
+    def nextPrompt(self, file, lines):
+        num_str = file.readline()
+        num = int(num_str)
+        
+
+        print(lines[num - 1])
+        
+        """ while line.strip() != "stop":
+            print(line)
+            line = file.readline() """
+        pass
         
 
     def openFile(self):
