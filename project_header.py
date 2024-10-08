@@ -16,7 +16,7 @@ class Choices():
     def readPrompt(file):
         pass
 
-    def nextPrompt(self, file, lines):
+    def nextPrompt(self, file, lines, i):
         pass
 
     def openFile():

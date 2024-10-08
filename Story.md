@@ -7,17 +7,14 @@ What do you do?
 3: Check out bedroom
 stop
 1
-Kitchen
-stop
-21
+15
 2
-Living Room
-stop 
-22
+17
 3
-Bedroom
+19
+test1
 stop
-23
-test
 test2
+stop
 test3
+stop
