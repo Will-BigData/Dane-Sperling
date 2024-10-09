@@ -5,6 +5,7 @@ What do you do?
 1: Check out kitchen
 2: Check out living room
 3: Check out bedroom
+type in Quit at any time to stop.
 stop
 1
 15

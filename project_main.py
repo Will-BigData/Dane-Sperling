@@ -13,7 +13,8 @@ file = test.openFile()
 test.readPrompt(file)
 
 i = test.checkChoice()
-
+if i == "Quit" or i == "quit":
+    exit(0)
 
 test.nextPrompt(file, lines, i)
 test.readPrompt(file)

@@ -4,7 +4,7 @@ class Choices():
     def checkChoice(self):
         print("Enter Choice: ")
         i = input()
-        while i != "1" and i != "2" and i != "3":
+        while i != "1" and i != "2" and i != "3" and i != "Quit" and i != "quit":
             print("Unrecognized choice, please re-enter: ")
             i = input()
              
