@@ -10,22 +10,6 @@ class Choices():
              
         return i
         
-    def useChoice(self, file, i):
-        line = file.readline()
-        while line.strip() != "stop":
-            if i == line.strip() :
-                line = file.readline()
-                while line.strip() != "stop":
-                    print(line)
-                    line = file.readline()
-            else:
-                line = file.readline()
-                while line.strip() != "stop":
-                    line = file.readline()
-                line = file.readline()
-                line = file.readline()
-            
-            
 
     def addChoice(self, str):
         
@@ -51,10 +35,10 @@ class Choices():
         num = int(num_str)
         
         l = file.readline()
-        while l != lines[num - 2]:
+        while l != lines[num - 1]:
             l = file.readline()
 
-        
+        print(l)
         pass
         
 

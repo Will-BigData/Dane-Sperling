@@ -14,6 +14,6 @@ test.readPrompt(file)
 
 i = test.checkChoice()
 
-#test.useChoice(file, i)
+
 test.nextPrompt(file, lines, i)
 test.readPrompt(file)

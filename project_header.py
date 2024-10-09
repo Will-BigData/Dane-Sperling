@@ -1,13 +1,10 @@
 import project_implementation as imp
 
 class Choices():
-    __ch = ''
-    __l = []
+    ch = ''
+    l = []
 
     def checkChoice():
-        pass
-    
-    def useChoice(file, i):
         pass
     
     def addChoice(str):
