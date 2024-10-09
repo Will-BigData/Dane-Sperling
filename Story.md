@@ -9,12 +9,28 @@ stop
 1
 15
 2
-17
+23
 3
-19
-test1
+29
+You see old decrepid cabinets filled with cobwebs
+And not a crumb of food
+You find nothing!
+What do you do?
+1: Go back to main room
+2: Check our living room
+3: Check out bedroom
 stop
-test2
+You see an old couch, a fireplace, and an broken old analog clock
+What do you do?
+1: Check out kitchen
+2: Go back to main room
+3: Check out bedroom
 stop
-test3
+You see 2 beds, one big, one small
+There is a old porcelain doll on the small bed
+You also see a nightstand, inside is a key
+What do you do?
+1: Check out kitchen
+2: Check out living room
+3: Go back to main room
 stop
