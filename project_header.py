@@ -2,15 +2,18 @@ import project_implementation as imp
 
 class Choices():
     ch = ''
-    l = []
+    choicesList = []
 
     def checkChoice():
         pass
     
+    def endChoice(self):
+        pass
+
     def addChoice(str):
         pass
 
-    def readPrompt(file):
+    def readPrompt(file)-> bool:
         pass
 
     def nextPrompt(self, file, lines, i):
@@ -19,4 +22,6 @@ class Choices():
     def openFile():
         pass
 
+    def outFile(self):
+        pass
     
