@@ -29,12 +29,3 @@ while i == 'Y':
     i = test.endChoice()
     file.close()
     test.outFile()
-
-    
-""" test.nextPrompt(file, lines, i)
-check = test.readPrompt(file)
-i = test.checkChoice()
-if i == "Quit" or i == "quit":
-    exit(0)
-test.nextPrompt(file, lines, i)
-check = test.readPrompt(file) """
